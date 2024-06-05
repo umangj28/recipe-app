@@ -1,0 +1,73 @@
+.navbar {
+    width: 100%;
+    background-color: rgb(156, 95, 218);
+    overflow: auto;
+  }
+  .cont{
+      float:right;
+  }
+
+  .flex img{
+      margin:50px;
+        width: 50%;
+        height: 20vh;
+      border: 2px solid #555;
+      padding: 5px;
+      
+  }
+
+  .flex .f1,.f2 {
+      text-align:center;
+  }
+
+  .flex1 img {
+    width:40%;
+    height:30vh;
+    margin:20px;
+  }
+  .flex1 .img1,.img3{
+      text-align: center;
+      background-color: rgb(128, 243, 243);
+  }
+  .flex1 .img2,.img4{
+    text-align: center;
+    background-color: rgb(226, 211, 79);
+}
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: yellow;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: red;
+  }
+  
+  .nav-cont{
+      font-size: 20px;
+  }
+  .flex{
+    margin: 10px;
+      /* font-size: 5%; */
+      display: flex;
+      flex-direction: row;
+
+  }
+  
+  .flex1{
+    
+        margin: 40px;
+          /* font-size: 5%; */
+          display: flex;
+          flex-direction: row;
+      
+  }

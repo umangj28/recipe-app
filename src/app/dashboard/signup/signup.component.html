@@ -1,0 +1,70 @@
+<!-- <p>signup works!</p> -->
+<!-- <p> Register here!</p><br> -->
+<!-- <div class="login">
+<form action="#" method="POST"> 
+  <div class="login100-more" style="background-image: url('assets/images/bb.jpg');"></div> 
+  <div class="container">
+    
+    <label> FullName:  </label>         
+    <input type="text" name="name" size="15" [(ngModel)]="Registerdetails.name"/> <br> <br>   -->
+    <!-- <label> Firstname: </label>     
+    <input type="text" name="middlename" size="15"/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15"/> <br> <br>  
+    
+    <label> DOB: </label>         
+    <input type="date" name="date" size="15"/> <br> <br>  
+
+    <label> Designation: </label>         
+    <input type="text" name="desig" size="15"/> <br> <br>  
+    
+    <label> Education: </label>         
+    <input type="text" name="edu" size="15"/> <br> <br>   -->
+    
+    <!-- <label>Email: </label>
+    <input type="email" id="email" name="email" [(ngModel)]="Registerdetails.email"/> <br>  
+    <small style="color: red;" *ngIf="error.em">please Enter email</small>  
+    <br> 
+    <label>Password:</label>  
+    <input type="Password" id="pass" name="password" [(ngModel)]="Registerdetails.password"> <br>   
+    <br> 
+    <label>Re-type password:  </label>
+    <input type="Password" id="repass" name="repass"> <br> <br>  
+    <button type="submit" (click)="register()">Submit</button><br><br>  
+    </div>
+    </form> 
+    </div> -->
+
+    <div class="container">
+      <div style="text-align:center">
+        <!-- <h2>Contact Us</h2> -->
+        <p>Register!</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="assets\images\bb.jpg" style="width:100% ">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname"> Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." [(ngModel)]="Registerdetails.name" > <br>
+            <small style="color: red;" *ngIf="error.ename">please Enter name</small> <br>
+
+            <label for="lname">Email </label>
+            <input type="email" id="email" name="email" placeholder="Your email.." [(ngModel)]="Registerdetails.email"/> <br>  
+            <small style="color: red;" *ngIf="error.em">please Enter email</small> <br>
+
+            <label for="country">Password</label>
+            <input type="Password" id="pass" name="password" [(ngModel)]="Registerdetails.password"> <br>   
+            <small style="color: red;" *ngIf="error.pwd">please Enter password</small> <br>
+            <br> 
+             <label>Re-type password:  </label>
+            <input type="Password" id="repass" name="repassword" [(ngModel)]="Registerdetails.repassword"> <br> 
+            <small style="color: red;" *ngIf="error.rpwd">please Enter password again</small> <br>
+
+            <button type="submit" (click)="register()">Submit</button><br><br>  
+            <a href="/login">Already have an account? Login!</a>
+          </form>
+        </div>
+      </div>
+    </div>

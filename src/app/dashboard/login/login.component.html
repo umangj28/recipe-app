@@ -1,0 +1,42 @@
+<!-- <p>login works!</p> -->
+<p> Login</p>
+<div class="login">
+<form action="#" method="post">  
+    <div class="container">   
+        <label>Email-id : </label>   
+        <input type="email" placeholder="Enter email" name="email" id="email"  [(ngModel)]="logindeatils.email"  >
+        <small style="color: red;" *ngIf="error.uname">please Enter email</small>
+        <br><br>
+        <label>Password : </label>   
+        <input type="password" placeholder="Enter Password" name="password" id="password" [(ngModel)]="logindeatils.password" >
+        <small style="color: red;" *ngIf="error.pwd">please Enter password</small>
+        <br><br>
+        <button type="submit" (click)="login()">Login</button><br><br>
+        
+           
+        <a href="/signup">Dont have an account? Sign-up here! </a>   
+    </div>   
+</form> 
+</div>
+
+<!-- <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>  -->
